@@ -167,7 +167,7 @@
 		1FC18282139AE3810027F597 /* NUIPGrammarInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC18280139AE3800027F597 /* NUIPGrammarInternal.h */; };
 		1FC18283139AE3810027F597 /* NUIPGrammarInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC18281139AE3810027F597 /* NUIPGrammarInternal.m */; };
 		1FC18287139BA47D0027F597 /* NUIParse-template.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FC18286139BA47D0027F597 /* NUIParse-template.md */; };
-		54197209188F7D49004240B4 /* NUIPRegexpRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */; };
+		54197209188F7D49004240B4 /* NUIPRegexpRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5419720A188F7D49004240B4 /* NUIPRegexpRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */; };
 		5419720B188F7D49004240B4 /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */; };
 		5419720D188F7D49004240B4 /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */; };
@@ -746,7 +746,7 @@
 			name = NUIParseTests;
 			productName = NUIParseTests;
 			productReference = 1F0E890B130462F300537D04 /* NUIParseTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		1F92817E145C11050033BC34 /* iOSNUIParse */ = {
 			isa = PBXNativeTarget;
@@ -782,7 +782,7 @@
 			name = iOSNUIParseTests;
 			productName = iOSNUIParseTests;
 			productReference = 1F92818C145C11050033BC34 /* NUIParseTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		1FE77D811375EA8F00879A41 /* NUIParse Documentation */ = {
 			isa = PBXNativeTarget;
